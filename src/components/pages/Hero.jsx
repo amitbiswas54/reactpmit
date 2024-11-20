@@ -27,7 +27,7 @@ function Hero(){
             </div>
             <div className="container">
                 <div className="hero-content">
-                <h4 className="sub-title anim-text">Transforming</h4>
+                <h4 className="sub-title anim-text">Transforming 2</h4>
                 <h2 className="title anim-text">Visions into</h2>
                 <h3 className="bottom-title anim-text">Digital Reality</h3>
                 <Link to="/" className="hero-btn">
