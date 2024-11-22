@@ -1,9 +1,23 @@
 import footershape from '../../src/external/assets/img/footer-shape.png'
 import Brand from './Brand';
+import { useEffect } from 'react';
 
 
 
 function Footer() {
+
+
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = '../../src/assets/js/vendor/jquary-3.6.0.min.js'; // Ensure the path matches
+    script.async = true;
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.appendChild(script);
+    };
+  }, []);
 
   return (
 
